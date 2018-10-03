@@ -1,7 +1,4 @@
 /* Style for About Page*/
-*{
-    box-sizing: auto;
-}
 
 h1, h2, h3{
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -56,6 +53,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;  
+    text-decoration: none;
 }
 
 
@@ -75,7 +73,7 @@ body {
 .bioBox{
     background-color: #ffffff;
     width: 960px;
-    height: 100%;
+    height: 580px;
     margin: auto;
     position: relative;
     top: 30px;
@@ -121,7 +119,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align:left;
     word-wrap: break-word;
-    line-height: 1.8;
+    line-height: 1.6;
     padding: 0px 10px 20px 0px;
     font-size: 18px;
 }
@@ -150,9 +148,9 @@ body {
 /* Style for Portfolio Page*/
 
 .pContainer{
-    height: 900px;
     width: 960px;
-    margin: 30px;   
+    margin: 30px;  
+    background-color: red; 
 }
 
 .pic1{
@@ -168,7 +166,7 @@ body {
 .pic2{
     background-image: url('../images/picture\ \(2\).jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 200px;
     width: 270px;
     float: left;
@@ -195,8 +193,8 @@ body {
     margin: 10px 30px 10px 0px;
 }
 
-.pic5{
-    background-image: url('../images/picture\ \(4\).jpg');
+.pic5{ 
+    background-image: url('../images/picture\ \(5\).jpg');
     background-repeat: no-repeat;
     background-size: contain;
     height: 200px;
@@ -207,9 +205,9 @@ body {
 
 .block{
     background-color: #4aaaa5;
-    height:20%;
+    height: 20%;
     text-align: center;
-    width:100%;
+    width: 99%;
     position: relative; 
     top: 75%;
 
