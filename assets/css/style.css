@@ -1,4 +1,7 @@
 /* Style for About Page*/
+*{
+    box-sizing: auto;
+}
 
 h1, h2, h3{
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -72,7 +75,7 @@ body {
 .bioBox{
     background-color: #ffffff;
     width: 960px;
-    height: 600px;
+    height: 100%;
     margin: auto;
     position: relative;
     top: 30px;
@@ -154,6 +157,8 @@ body {
 
 .pic1{
     background-image: url('../images/picture.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 200px;
     width: 270px;
     float: left;
@@ -162,6 +167,8 @@ body {
 
 .pic2{
     background-image: url('../images/picture\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 200px;
     width: 270px;
     float: left;
@@ -170,6 +177,8 @@ body {
 
 .pic3{
     background-image: url('../images/picture\ \(3\).jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 200px;
     width: 270px;
     float: left;
@@ -178,6 +187,8 @@ body {
 
 .pic4{
     background-image: url('../images/picture\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 200px;
     width: 270px;
     float: left;
@@ -186,6 +197,8 @@ body {
 
 .pic5{
     background-image: url('../images/picture\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 200px;
     width: 270px;
     float: left;
