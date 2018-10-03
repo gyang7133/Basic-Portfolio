@@ -73,7 +73,7 @@ body {
 .bioBox{
     background-color: #ffffff;
     width: 960px;
-    height: 580px;
+    height: 600px;
     margin: auto;
     position: relative;
     top: 30px;
@@ -149,8 +149,7 @@ body {
 
 .pContainer{
     width: 960px;
-    margin: 30px;  
-    background-color: red; 
+    margin: 30px; 
 }
 
 .pic1{
